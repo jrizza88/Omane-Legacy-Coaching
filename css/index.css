@@ -140,11 +140,32 @@ table {
   background-color: #060706;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: fixed;
+  flex-wrap: nowrap;
   top: 0;
   z-index: 2;
+}
+.home .logo {
+  margin-left: 1%;
+  width: 20%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home .menu-content {
+  width: 80%;
+  flex-wrap: nowrap;
+  padding-left: 10%;
+  align-items: center;
+}
+.home .menu-content a {
+  border: 1px solid white;
+  padding: 2% 5%;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  background: white;
 }
 .top-section {
   display: flex;
