@@ -167,6 +167,12 @@ table {
   color: black;
   background: white;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .top-section {
   display: flex;
   align-items: center;
