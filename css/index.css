@@ -190,12 +190,29 @@ html {
   padding: 5% 0;
   font-size: 2.3rem;
 }
+.panel-image {
+  width: 100%;
+}
+.panel-image .home-image {
+  height: 475px;
+  width: 100%;
+}
 .top-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 5%;
   flex-wrap: nowrap;
+  vertical-align: middle;
+  text-align: center;
+}
+.top-section h1 {
+  line-height: 50px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.top-section h1 i {
+  font-style: italic;
 }
 .main-section {
   display: flex;
@@ -203,6 +220,8 @@ html {
   justify-content: center;
   flex-direction: column;
   margin-top: 10%;
+  vertical-align: middle;
+  text-align: center;
 }
 .main-section .home-info {
   display: flex;
