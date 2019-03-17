@@ -177,6 +177,7 @@ html {
   flex-wrap: nowrap;
   overflow: hidden;
   text-decoration: none;
+  text-align: center;
   color: white;
   background: black;
 }
@@ -194,6 +195,49 @@ html {
   width: 100%;
   padding: 5% 0;
   font-size: 2.3rem;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: black;
+  color: white;
+  height: 625px;
+}
+.about-section h2 {
+  font-size: 2.7rem;
+}
+.about-section .about-top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.about-section .about-lower-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15%;
+}
+.about-section .about-lower-section .lower-paragraph {
+  padding: 5%;
+}
+.about-section .about-lower-section .lower-paragraph #middle {
+  padding: 1.2% 6.5%;
+}
+.about-section .about-lower-section .lower-paragraph .fa-life-ring,
+.about-section .about-lower-section .lower-paragraph .fa-user,
+.about-section .about-lower-section .lower-paragraph .fa-check-circle {
+  font-size: 10rem;
+}
+.about-section .about-lower-section .lower-paragraph .paragraph-column {
+  padding-top: 3%;
+  line-height: 2.7rem;
+}
+.info-section h2 {
+  padding: 5%;
+  font-size: 3rem;
+  font-weight: bold;
 }
 .panel-image {
   width: 100%;
@@ -224,9 +268,13 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
   vertical-align: middle;
   text-align: center;
+}
+.main-section .main-paragraph {
+  font-size: 2.5rem;
+  padding: 2.5% 0;
 }
 .main-section .home-info {
   display: flex;
@@ -240,4 +288,8 @@ html {
   margin-top: 5%;
   padding: 5% 2.5%;
   border: 1px solid black;
+}
+.main-section .banners:hover {
+  color: white;
+  background: black;
 }
