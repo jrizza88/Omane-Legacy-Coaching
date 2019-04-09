@@ -234,8 +234,11 @@ html {
   padding-top: 3%;
   line-height: 2.7rem;
 }
-.info-section h2 {
+.info-section {
   padding: 5%;
+}
+.info-section h2 {
+  padding: 2%;
   font-size: 3rem;
   font-weight: bold;
 }
